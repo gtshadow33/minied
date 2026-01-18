@@ -5,11 +5,11 @@
 #include "config.h"
 
 typedef struct {
-    int cx, cy;             // cursor
-    int row_offset;         // scroll vertical
-    int col_offset;         // scroll horizontal
-    int screenrows;         // filas visibles
-    int screencols;         // columnas visibles
+    int cx, cy;
+    int row_offset;
+    int col_offset;
+    int screenrows;
+    int screencols;
     EditorMode mode;
     Buffer buffer;
     const char *filename;

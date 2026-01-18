@@ -1,4 +1,3 @@
-/* buffer.h */
 #ifndef BUFFER_H
 #define BUFFER_H
 
@@ -15,8 +14,6 @@ void buffer_free(Buffer *b);
 void buffer_insert_char(Buffer *b, int x, int y, char c);
 void buffer_delete_char(Buffer *b, int x, int y);
 void buffer_insert_line(Buffer *b, int y);
-
-/* NUEVO: dividir línea al hacer Enter */
 void buffer_split_line(Buffer *b, int x, int y);
 
 #endif
